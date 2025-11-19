@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <title>chatbot</title>
+    <link rel="Stylesheet" href="style.css"/>
+
+    <!--Bootstrap Links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!--font-awesome-icons-cdn-->
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+
+
+  </head>
+
+  <body>
+      <h1 class="text-center heading">Meet our chatbot </h1>
+      <img class="chatbot-img" src="https://res.cloudinary.com/dpjhq0qc2/image/upload/v1762534386/meilleur-chatbot_pl5vdb.jpg ">
+
+    
+      <!--chat container-->
+
+      <div id="chatContainer" class="chat-container">
+
+         <div  class="msg-to-chatbot-container">
+            <span class="msg-to-chatbot-container"></span>
+        </div>
+
+      </div>
+
+      <div class="d-flex flex-row justify-content-end">
+        <img class="user-img" src="https://res.cloudinary.com/dpjhq0qc2/image/upload/v1762535421/images_iidpyf.png ">
+
+      </div>
+
+
+      <!--this div is textarea and icon-->
+
+      <div class="d-flex flex-row justify-content-center fixed-bottom">
+       <input class="userInput" id="userInput" />
+
+
+
+        <button id="sendMsgBtn" class="btn btn-success send-btn" onclick=" sendMsgTochatbot()">
+         <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+      </div>
+
+
+      <script src="script.js"></script>
+        
+  </body>
+  
